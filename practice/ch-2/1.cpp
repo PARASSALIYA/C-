@@ -20,7 +20,7 @@ int main()
     cout << a % b;
     cout << endl;
 
-    cout << "Addition     of a and b is " << a + b;
+    cout << "Addition     of "<< a <<" and "<< b <<":" << a + b;
     cout << endl;
     cout << "Subtraction  of a and b is " << a - b;
     cout << endl;
