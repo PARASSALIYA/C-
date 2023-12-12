@@ -12,7 +12,7 @@ private:
     int s_id1;
     char s_name1[20];
     int s_age1;
-    // Cannot access private
+    // Cannot access private attributes
 };
 int main()
 {
