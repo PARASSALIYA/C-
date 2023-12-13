@@ -19,8 +19,8 @@ int main()
     cin >> inch2;
     cout << endl;
 
-    F = inch / 12;
-    F2 = inch2 / 12;
+    F = inch % 12;
+    F2 = inch2 % 12;
 
     f = feet + F;
     f2 = feet2 + F2;
