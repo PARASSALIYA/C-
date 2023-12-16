@@ -61,7 +61,7 @@ int main()
 {
    int n;
    hotel h[n];
-   cout << "Enter nember of hotel :";
+   cout << "Enter number of hotel :";
    cin >> n;
    for (int i = 0; i < n; i++)
    {
