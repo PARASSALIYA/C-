@@ -1,4 +1,5 @@
 #include <iostream>
+#include<string.h>
 using namespace std;
 
 class hotel
@@ -10,8 +11,8 @@ private:
    int hotel_rating;
    char hotel_location[20];
    int hotel_estalish;
-   char hotel_staff_quantity[20];
-   char hotel_room_quantity[20];
+   int hotel_staff_quantity;
+   int hotel_room_quantity;
 
 public:
    void sethoteldata()
@@ -21,7 +22,7 @@ public:
       cin >> this->hotel_id;
       fflush(stdin);
       cout << "Enter your hotel type :";
-      cin >> this->hotel_type;
+      gets(this->hotel_type);
       cout << "Enter your hotel rating : ";
       cin >> this->hotel_rating;
       fflush(stdin);
@@ -63,11 +64,11 @@ int main()
    hotel h[n];
    cout << "Enter number of hotel :";
    cin >> n;
-   for (int i = 0; i < n; i++)
+   for (int i = 1; i < n; i++)
    {
       h[n].sethoteldata();
    }
-   for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
    {
       h[n].gethoteldata();
    }
