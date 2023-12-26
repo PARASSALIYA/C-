@@ -55,7 +55,9 @@ int main()
    cout << "Enter N number :";
    cin >> n;
 
-   cafe c1[n];
-   cafe c2[n];
-   c2[n].getcafe();
+   for(int i = 0;i <= n;i++)
+   {
+       cafe c1[n];
+      c1[n].getcafe();
+   }
 }
