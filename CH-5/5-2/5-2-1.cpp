@@ -19,11 +19,11 @@ public:
          cout << "B :" << b << endl;
         if (a < b)
         {
-            cout << "a is higher value";
+            cout << "b is higher value";
         }
         else
         {
-            cout << "b is higher value";
+            cout << "a is higher value";
         }
     }
  };
