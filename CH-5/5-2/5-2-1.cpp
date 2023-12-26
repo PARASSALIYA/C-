@@ -17,7 +17,7 @@ public:
     {
          cout << "A :" << a << endl;
          cout << "B :" << b << endl;
-        if (a > b)
+        if (a < b)
         {
             cout << "a is higher value";
         }
