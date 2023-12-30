@@ -12,7 +12,7 @@ private:
     char h_location[20];
 
 public:
-    void gethotel(int h_number, char h_name[], char h_type[], int h_rating, char h_location[])
+    Hotel(int h_number, char h_name[], char h_type[], int h_rating, char h_location[])
     {
         this->h_number = h_number;
         strcpy(this->h_name, h_name);
@@ -31,6 +31,11 @@ public:
 };
 int main()
 {
+    int n;
+    cout<<"Enter N :";
+    cin>>n;
+    for (int i = 1; i <= n; i++)
+    {
     int h_number;
     char h_name[20];
     char h_type[20];
@@ -51,4 +56,5 @@ int main()
     gets(h_location);
 
     Hotel h1(int h_number, char h_name[], char h_type[], int h_rating, char h_location[]);
+   }
 }
